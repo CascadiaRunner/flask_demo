@@ -1,4 +1,4 @@
-from flask import render_template, request
+from flask import render_template, request, url_for
 from app import app, db
 from app.forms import LoginForm, RegistrationForm
 from flask import render_template, flash, redirect
@@ -11,16 +11,16 @@ from werkzeug.urls import url_parse
 @login_required
 def index():
     # user = {'username': 'Chris'}
-    # posts = [
-    #     {
-    #         'author':{'username':'Kristin'},
-    #         'body': 'Beautiful day in Bend!'
-    #     },
-    #     {
-    #         'author': {'username':'Karen'},
-    #         'body': 'I only shop at Whole Foods'
-    #     }
-    # ]
+    posts = [
+        {
+            'author':{'username':'Kristin'},
+            'body': 'Beautiful day in Bend!'
+        },
+        {
+            'author': {'username':'Karen'},
+            'body': 'I only shop at Whole Foods'
+        }
+    ]
     return render_template('index.html', title='Home', posts=posts)
 
 @app.route('/login', methods=['GET', 'POST'])

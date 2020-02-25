@@ -4,4 +4,4 @@ Part 2: Templates - DONE!
 Part 3: Web Forms - DONE!
 Part 4: Database - DONE!
 Part 5: User Logins - DONE!
-Part 6: Profile Page and Avatars - Working
+Part 6: Profile Page and Avatars - Working (Avatars)

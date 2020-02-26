@@ -5,4 +5,4 @@ Part 3: Web Forms - DONE!
 Part 4: Database - DONE!
 Part 5: User Logins - DONE!
 Part 6: Profile Page and Avatars - DONE!
-Part 7: Error Handling - Working
+Part 7: Error Handling - Working (Sending Errors by Email)

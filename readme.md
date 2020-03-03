@@ -5,4 +5,5 @@ Part 3: Web Forms - DONE!
 Part 4: Database - DONE!
 Part 5: User Logins - DONE!
 Part 6: Profile Page and Avatars - DONE!
-Part 7: Error Handling - Working (Sending Errors by Email)
+Part 7: Error Handling - DONE!
+Part 8: Followers - working (Obtaining the Posts from Followed Users)

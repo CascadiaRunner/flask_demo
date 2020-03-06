@@ -1,4 +1,4 @@
-2020-03-03 16:59:22,835 ERROR: Exception on /user/Chris G [GET] [in d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1891]
+2020-03-03 16:59:26,602 ERROR: Exception on /user/Kristin [GET] [in d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\sqlalchemy\engine\base.py", line 1246, in _execute_context
     cursor, statement, parameters, context
@@ -80,5 +80,6 @@ sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: follo
 FROM (SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password_hash AS user_password_hash, user.about_me AS user_about_me, user.last_seen AS user_last_seen 
 FROM user, followers 
 WHERE followers.followed_id = ? AND followers.follower_id = user.id) AS anon_1]
-[parameters: (4,)]
+[parameters: (5,)]
 (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-03-05 16:53:32,174 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:44]

@@ -6,4 +6,5 @@ Part 4: Database - DONE!
 Part 5: User Logins - DONE!
 Part 6: Profile Page and Avatars - DONE!
 Part 7: Error Handling - DONE!
-Part 8: Followers - working (Obtaining the Posts from Followed Users)
+Part 8: Followers - DONE!
+Part 9: Pagination - working

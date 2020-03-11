@@ -93,3 +93,6 @@ Traceback (most recent call last):
 TypeError: 'str' object is not callable
 2020-03-10 17:06:06,929 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:44]
 2020-03-10 20:30:37,253 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:44]
+2020-03-10 20:34:45,503 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:44]
+2020-03-10 20:50:53,616 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:44]
+2020-03-10 20:52:13,569 INFO: Microblog startup [in D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\__init__.py:47]

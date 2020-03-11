@@ -7,4 +7,4 @@ Part 5: User Logins - DONE!
 Part 6: Profile Page and Avatars - DONE!
 Part 7: Error Handling - DONE!
 Part 8: Followers - DONE!
-Part 9: Pagination - working
+Part 9: Pagination - Pagination in the User Profile Page

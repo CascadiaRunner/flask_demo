@@ -1,4 +1,4 @@
-2020-03-10 15:31:20,676 ERROR: Exception on /explore [GET] [in d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1891]
+2020-03-10 15:34:40,728 ERROR: Exception on /index [GET] [in d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -14,8 +14,8 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
     return func(*args, **kwargs)
-  File "D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\routes.py", line 131, in explore
-    return render_template('index.html', title='Explore', posts=posts)
+  File "D:\Users\chris.garland\Documents\Experimental\FlaskSB\app\routes.py", line 23, in index
+    return render_template('index.html', title='Home', form=form, posts=posts)
   File "d:\users\chris.garland\appdata\local\programs\python\python36\lib\site-packages\flask\templating.py", line 138, in render_template
     ctx.app.jinja_env.get_or_select_template(template_name_or_list),
   File "D:\Users\chris.garland\AppData\Roaming\Python\Python36\site-packages\jinja2\environment.py", line 869, in get_or_select_template
